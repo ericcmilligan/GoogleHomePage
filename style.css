@@ -1,0 +1,45 @@
+.toolbarleft{
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-between;
+}
+.toolbarleft p{
+  padding-left: 1rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.toolbarleft p:hover{
+  text-decoration: underline;
+}
+
+.centerlogo{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.searchsprite{
+  text-align: left;
+  position: absolute;
+  padding: 11px, 11px;
+  filter: contrast(0);
+  background-position: -248px -35px;
+}
+
+.searchbar{
+  width: 50vw;
+  max-width: 500px;
+  height: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+  padding:0, 40px;
+  font-size: initial;
+  margin: 20px;
+  text-align: center;
+}
+input{
+  border: none;
+  text-align: center;
+}
